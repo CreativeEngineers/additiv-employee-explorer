@@ -2,20 +2,23 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Overview of the Employee Explorer application
 
-Here we have added the simple serach functionality so that user can search for the employee. To have the better user experience added the error message if the requested employee not in the directory.
+### Home Page - Employee Explorer
 
-Once the user is able to retrieve the data then user will be redirected to employee overview page, where in which 
-we wil display the direct subordinates of the search employee. If user is trying to look for the indirect subordinates then user has to click on the respective direct subordinates
+Here we have added the simple serach functionality so that user can search for the employee. To have the better user experience added the error message if the requested employee not in the directory.Once the user is able to retrieve the data then user will be redirected to employee overview page
 
-## Enhancement can be done via showing the tree view
+### Employee Overview Page
 
-As per the time line has given added the feature to look for the employees with direct and indirect suboridnates. But the ideal solution will be showing the tree strcture in the same page with sligh modification in the backend api structure to ease the experience of the user and better code management.
+In this page will display the direct subordinates of the search employee. If user is trying to look for the indirect subordinates then user has to click on the respective direct subordinates
+
+## Enhancement can be done via displaying the subordinates in the tree view
+
+As per the time line has given added the feature to look for the employees with direct and indirect suboridnates. But the ideal solution will be showing the tree strcture in the same page with sligh modification of the backend api structure so that, it will ease the experience of the user and better code management.
 
 ## Added the sample test cases
 
-As per the timeline, added the sample test cases how the reducer functions can be tested. Enhancement will be doing the jest test with mock api to verify the backend async call data
+As per the timeline, added the sample test cases how the reducer functions can be tested. Enhancements can be done via implementing with jest
 
-## Comments for the each method
+## Comments for code redability
 
 Added the comments for almost each method to know more about it before can be modified by other developers in the team.
 
