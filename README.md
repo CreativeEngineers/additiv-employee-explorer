@@ -26,6 +26,10 @@ Added the comments for almost each method to know more about it before can be mo
 
 In the project directory, you can run:
 
+### `yarn install`
+
+This will install the necessary packages to run the application.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
