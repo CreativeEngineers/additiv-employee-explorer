@@ -1,5 +1,24 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+## Overview of the Employee Explorer application
+
+Here we have added the simple serach functionality so that user can search for the employee. To have the better user experience added the error message if the requested employee not in the directory.
+
+Once the user is able to retrieve the data then user will be redirected to employee overview page, where in which 
+we wil display the direct subordinates of the search employee. If user is trying to look for the indirect subordinates then user has to click on the respective direct subordinates
+
+## Enhancement can be done via showing the tree view
+
+As per the time line has given added the feature to look for the employees with direct and indirect suboridnates. But the ideal solution will be showing the tree strcture in the same page with sligh modification in the backend api structure to ease the experience of the user and better code management.
+
+## Added the sample test cases
+
+As per the timeline, added the sample test cases how the reducer functions can be tested. Enhancement will be doing the jest test with mock api to verify the backend async call data
+
+## Comments for the each method
+
+Added the comments for almost each method to know more about it before can be modified by other developers in the team.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -31,14 +50,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

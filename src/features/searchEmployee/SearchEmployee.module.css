@@ -1,0 +1,22 @@
+.containerStyle {
+  border: 1px solid #cccccc;
+  max-height: 100%;
+  padding-bottom: 24px;
+  background: #ffffff;
+}
+.searchButton {
+  height: 56px;
+  margin-left: 20px;
+}
+.marginRight20 {
+  margin-right: 20px !important;
+}
+
+.alertStyle {
+  margin-top: 20px;
+  width: 330px;
+}
+
+.inputStyle {
+  width: 300px;
+}
